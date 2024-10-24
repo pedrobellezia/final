@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Registro</title>
+    <link rel="stylesheet" href="static/css/register.css">
+    <script src="static/script/register.js" defer></script>
+
+</head>
+<body>
+    <div class="register-container">
+        <h2>Registrar-se</h2>
+        <form onsubmit="saveToLocalStorage(event)">
+            <input type="text" name="username" placeholder="Usuário" required style="width: 400px;">
+            <input type="email" name="email" placeholder="Email" required style="width: 400px;">
+            <input type="password" name="password" placeholder="Senha" required oninput="checkPasswordStrength(this.value)" style="width: 400px;">
+            <div style="display: flex; justify-content: center;">
+                <div class="passwordcheck" id="strong1"></div>
+                <div class="passwordcheck" id="strong2"></div>
+                <div class="passwordcheck" id="strong3"></div>
+            </div>
+            <input type="password" name="confirm_password" placeholder="Confirmar Senha" required style="width: 400px;">
+            <input type="submit" value="Registrar" style="width: 400px;">
+        </form>
+        <div class="login-link">
+            <span>Já tem uma conta?</span>
+            <a href="login.html">Login</a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vestido Gola Alta</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .product-info {
+            max-width: 300px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            margin-left: 20px;
+        }
+
+        .star-rating {
+            color: gold;
+        }
+
+        .price {
+            font-size: 20px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 15px;
+            margin: 5px 0;
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            border-radius: 5px;
+            text-decoration: none;
+            width: 100%;
+        }
+
+        .review-section {
+            margin-top: 20px;
+            border-top: 1px solid #ccc;
+            padding-top: 10px;
+            display: flex;
+        }
+
+        .review-count {
+            width: 200px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            margin-right: 20px;
+        }
+
+        .review {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #eee;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+
+        img {
+            width: 320px;
+            height: auto;
+        }
+
+        p,
+        h2 {
+            margin: 0px;
+        }
+
+        /* Custom font sizes */
+        .product-title {
+            font-size: 36px; /* Title font size */
+        }
+
+        .specification {
+            font-size: 24px; /* Specification font size */
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="display: flex; align-items: start;">
+        <a class="navbar-brand" href="index.html">
+            <img src="static/img/logo.png" alt="" style="width: 75px; height: auto;">
+        </a>
+        <a href="login.html" style="text-decoration: none; margin-top: 25px; margin-bottom: 0px">
+            <p>Login</p>
+        </a>
+    </nav>
+
+    <div class="container">
+        <div>
+            <img src="static/img/vestido4.jpeg" alt="Vestido Gola Alta">
+        </div>
+
+        <div style="display: flex; align-items: flex-start; flex-direction: column;">
+            <h2 class="product-title">Vestido Gola Alta</h2>
+            <div class="star-rating">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star"></i>
+            </div>
+            <ul>
+                <li class="specification"><strong>Modelagem:</strong> Justa</li>
+                <li class="specification"><strong>Tecido:</strong> Malha</li>
+                <li class="specification"><strong>Material:</strong> 96% Poliester, 4% Elastano</li>
+                <li class="specification"><strong>Medidas:</strong></li>
+                <li class="specification">PP: Cintura 64 cm, Quadril 88 cm, Comprimento 95 cm</li>
+                <li class="specification">P: Cintura 68 cm, Quadril 92 cm, Comprimento 96 cm</li>
+                <li class="specification">M: Cintura 72 cm, Quadril 96 cm, Comprimento 97 cm</li>
+                <li class="specification">G: Cintura 76 cm, Quadril 100 cm, Comprimento 98 cm</li>
+                <li class="specification">GG: Cintura 80 cm, Quadril 104 cm, Comprimento 99 cm</li>
+            </ul>
+        </div>
+
+        <div class="product-info" style="display: flex; justify-content: space-between; flex-direction: column;">
+            <div>
+                <h2>Calça Jeans Reta</h2>
+                <div class="price">Preço: R$ 210,00</div>
+                <p>Ou 7x de R$ 30,00</p>
+                <label for="size">Escolha o tamanho:</label>
+                <select id="size">
+                    <option value="pp">PP</option>
+                    <option value="p">P</option>
+                    <option value="m">M</option>
+                    <option value="g">G</option>
+                    <option value="gg">GG</option>
+                </select>
+            </div>
+
+            <a href="#" class="button" style="width: 200px;">Adicionar ao Carrinho</a>
+        </div>
+    </div>
+
+    <div class="review-section">
+        <div class="review-count">
+            <h3>Contagem de Avaliações</h3>
+            <p>
+            <div class="star-rating">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star"></i>
+            </div> 300 usuários
+            </p>
+            <p>
+            <div class="star-rating">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star"></i>
+            </div> 300 usuários
+            </p>
+            <p>
+            <div class="star-rating">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star"></i>
+                <i class="bi bi-star"></i>
+            </div> 300 usuários
+            </p>
+            <p>
+            <div class="star-rating">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star"></i>
+                <i class="bi bi-star"></i>
+                <i class="bi bi-star"></i>
+            </div> 300 usuários
+            </p>
+            <p>
+            <div class="star-rating">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star"></i>
+                <i class="bi bi-star"></i>
+                <i class="bi bi-star"></i>
+                <i class="bi bi-star"></i>
+            </div> 300 usuários
+            </p>
+            <p>
+            <div class="star-rating">
+                <i class="bi bi-star"></i>
+                <i class="bi bi-star"></i>
+                <i class="bi bi-star"></i>
+                <i class="bi bi-star"></i>
+                <i class="bi bi-star"></i>
+            </div> 300 usuários
+            </p>
+        </div>
+        <div>
+            <div class="review">
+                <strong>João Silva</strong>
+                <div class="star-rating">★★★★★</div>
+                <p>O vestido é incrível! A malha é muito confortável e se ajusta perfeitamente ao corpo.</p>
+            </div>
+            <div class="review">
+                <strong>Maria Oliveira</strong>
+                <div class="star-rating">★★★★☆</div>
+                <p>Adorei a qualidade do tecido, mas o tamanho M ficou um pouco justo nas mangas.</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
